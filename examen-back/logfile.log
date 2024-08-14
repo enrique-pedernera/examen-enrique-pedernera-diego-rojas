@@ -1,0 +1,29 @@
+[2024-08-13 20:02:01] [ ERROR] [OdontologoServiceTest:29] Syntax error in SQL statement "\000d\000a\000d\000a\000d\000aCREATE TABLE ODONTOLOGO(\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNUMERO_MATRICULA VARCHAR(25) NOT NULL,\000d\000aNOMBRE VARCHAR(40) NOT NULL,\000d\000aAPELLIDO VARCHAR(40) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+
+
+CREATE TABLE ODONTOLOGO(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NUMERO_MATRICULA VARCHAR(25) NOT NULL,
+NOMBRE VARCHAR(40) NOT NULL,
+APELLIDO VARCHAR(40) NOT NULL,
+) [42001-230]
+[2024-08-13 20:05:02] [ INFO ] [OdontologoIdao:36] ODONTOLOGO AGREGADO A LA BASE DE DATOS H2 Odontologo{ID=2, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}
+[2024-08-13 20:06:45] [ INFO ] [OdontologoIdao:81] Se encontro el siguiente Odontologo con el id: 1 Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='EMILIANO', APELLIDO='MARTINEZ'}
+[2024-08-13 20:06:58] [ INFO ] [OdontologoIdao:82] No se encontro ningun odontologo con el id 2
+[2024-08-13 20:07:09] [ INFO ] [OdontologoIdao:81] Se encontro el siguiente Odontologo con el id: 1 Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='EMILIANO', APELLIDO='MARTINEZ'}
+[2024-08-13 20:07:15] [ INFO ] [OdontologoIdao:36] ODONTOLOGO AGREGADO A LA BASE DE DATOS H2 Odontologo{ID=2, NUMERO_MATRICULA='123', NOMBRE='juan', APELLIDO='perez'}
+[2024-08-13 20:07:22] [ INFO ] [OdontologoIdao:81] Se encontro el siguiente Odontologo con el id: 1 Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='JORGE', APELLIDO='MARTINEZ'}
+[2024-08-13 20:07:28] [ INFO ] [OdontologoIdao:82] No se encontro ningun odontologo con el id 2
+[2024-08-13 20:07:33] [ INFO ] [OdontologoIdao:81] Se encontro el siguiente Odontologo con el id: 1 Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='EMILIANO', APELLIDO='MARTINEZ'}
+[2024-08-13 20:09:04] [ INFO ] [OdontologoIdao:36] ODONTOLOGO AGREGADO A LA BASE DE DATOS H2 Odontologo{ID=2, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}
+[2024-08-13 20:09:04] [ INFO ] [OdontologoIdao:115] Se encontraron los siguientes odontologos El total es de 2 [Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='EMILIANO', APELLIDO='MARTINEZ'}, Odontologo{ID=2, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}]
+[2024-08-13 20:10:24] [ INFO ] [OdontologoIdao:36] ODONTOLOGO AGREGADO A LA BASE DE DATOS H2 Odontologo{ID=2, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='perez'}
+[2024-08-13 20:10:24] [ INFO ] [OdontologoIdao:115] Se encontraron los siguientes odontologos El total es de 2 [Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='EMILIANO', APELLIDO='MARTINEZ'}, Odontologo{ID=2, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}]
+[2024-08-13 20:12:29] [ INFO ] [OdontologoIdaoMemory:17] En memoria se agrego al odontologo Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}
+[2024-08-13 20:16:00] [ INFO ] [OdontologoIdaoMemory:17] En memoria se agrego al odontologo Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}
+[2024-08-13 20:16:00] [ INFO ] [OdontologoIdaoMemory:17] En memoria se agrego al odontologo Odontologo{ID=2, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}
+[2024-08-13 20:16:00] [ INFO ] [OdontologoIdaoMemory:31] Se encontro en Memoria al siguiente odontologo Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}
+[2024-08-13 20:17:17] [ INFO ] [OdontologoIdaoMemory:17] En memoria se agrego al odontologo Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}
+[2024-08-13 20:17:17] [ INFO ] [OdontologoIdaoMemory:17] En memoria se agrego al odontologo Odontologo{ID=2, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}
+[2024-08-13 20:17:17] [ INFO ] [OdontologoIdaoMemory:38] [Odontologo{ID=1, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}, Odontologo{ID=2, NUMERO_MATRICULA='123', NOMBRE='Juan', APELLIDO='Perez'}]
